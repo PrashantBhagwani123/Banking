@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BankingAccountApplication {
 
 	public static void main(String[] args) {
+		System.out.println("jenkins is running");
 		SpringApplication.run(BankingAccountApplication.class, args);
 	}
 
