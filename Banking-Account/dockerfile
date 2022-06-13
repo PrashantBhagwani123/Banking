@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:16-alpine3.13
 EXPOSE 8080
 Add target/banking-account-0.0.1-snapshot.jar banking-account-0.0.1-snapshot.jar
 ENTRYPOINT ["java","-jar","/banking-account-0.0.1-snapshot.jar"]
